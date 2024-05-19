@@ -1,0 +1,76 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  :root {
+    font-size: 58%;
+    background: #664c25;
+  }
+  .hide {
+    display: none;
+  }
+  .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-player {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .image{
+    border-radius: 16px;
+  }
+  .card-player.ACarta{
+    background-color: #6E612B;
+  }
+  .card-player.EueVoce{
+    background-color: #574F2A;
+  }
+  .card-player.NaHora{
+    background-color: #474724;
+  }
+  .card-player.PontoFinal{
+    background-color: #39401E;
+  }
+  .desc-musica {
+    margin: 20px 0px 15px 0px;
+  }
+  .desc-musica span {
+    color: #101111;
+  }
+  .conteudo-musica p {
+    font-size: 2.4rem;
+  }
+  .conteudo-musica span {
+    font-size: 1.8rem;
+  }
+  
+  .controles {
+    margin: 15px 15px 15px 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .controles button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .container-progresso input {
+    width: 100%;
+  }
+  .tempo-musica {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.9rem;
+    opacity: 1.0;
+  }
